@@ -6,3 +6,11 @@
  * configuración especial en producción
  */
 
+const TOKEN = '';
+const API = "https://group-defeats.000webhostapp.com/index.php";
+
+const Datos = {
+    name: "Perales Torres Luis Gerardo",
+    carrera: "Ingeniero en Tecnologías de la Información",
+    perfil: "Tengo amplia experiencia en análisis y limpieza de datos, wireframing y mantenimiento de sistemas informáticos, con un amplio dominio de sistemas operativos Windows y Linux.",
+};

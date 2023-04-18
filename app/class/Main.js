@@ -1,2 +1,2 @@
-ReactDOM.render(<div><LadyComponent/><MainComponent /></div>,
+ReactDOM.render(<div className="wrapper"><MainComponent /></div>,
     document.getElementById("app"));

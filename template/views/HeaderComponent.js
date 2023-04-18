@@ -6,12 +6,12 @@ class HeaderComponent extends React.Component {
 
   navlink(id, name) {
     return (
-      <li class="nav-item d-none d-sm-inline-block">
+      <li className="nav-item d-none d-sm-inline-block">
         <a
           href="#"
           id={id}
           onClick={(i) => this.handleClick(i)}
-          class="nav-link"
+          className="nav-link"
         >
           {name}
         </a>
@@ -26,30 +26,30 @@ class HeaderComponent extends React.Component {
 
   render() {
     return <header>
-      <div class="wrapper">
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-          <ul class="navbar-nav">
-            <li class="nav-item">
+      <div className="wrapper">
+        <nav className="main-header navbar navbar-expand navbar-white navbar-light">
+          <ul className="navbar-nav">
+            <li className="nav-item">
               <a
-                class="nav-link"
+                className="nav-link"
                 data-widget="pushmenu"
                 href="#"
                 role="button"
               >
-                <i class="fas fa-bars"></i>
+                <i className="fas fa-bars"></i>
               </a>
             </li>
             {this.navlink("btnContact", "Contacto")}
           </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
               <a
-                class="nav-link"
+                className="nav-link"
                 data-widget="fullscreen"
                 href="#"
                 role="button"
               >
-                <i class="fas fa-expand-arrows-alt"></i>
+                <i className="fas fa-expand-arrows-alt"></i>
               </a>
             </li>
           </ul>

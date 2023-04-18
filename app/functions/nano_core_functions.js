@@ -14,9 +14,7 @@ function imagen(ruta, ribbon, width) {
             ribbon +
             "</div> </div>";
     return (
-        '<div class="position-relative" style="width: ' +
-        width +
-        ';"> <img src="' +
+        '<div class="position-relative" > <img src="' +
         ruta +
         '" alt="Photo 1" class="img-fluid"> ' +
         ribbonhtml +
@@ -26,13 +24,7 @@ function imagen(ruta, ribbon, width) {
 
 function card(titulo, content, footer) {
     return (
-        '<div class="card" ><div class="card-header"><h3 class="card-title">' +
-        titulo +
-        '</h3><div class="card-tools"><button type="button" class="btn btn-tool" data-card-widget="maximize"><i class="fas fa-expand"></i></button><div class="card-tools"></div></div><div class="card-body"></div>' +
-        content +
-        '</div><div class="card-footer">' +
-        footer +
-        "</div></div>"
+        '<div class="card" > <div class="card-header" style=" display: flex; flex-direction: row; "> <h3 style="word-wrap: initial; white-space:nowrap; width: -webkit-fill-available; overflow:hidden; text-overflow:ellipsis;" class="card-title"> ' + titulo + ' </h3> <div class="card-tools" > <button type="button" class="btn btn-tool" data-card-widget="maximize"> <i class="fas fa-expand"></i> </button> </div> </div> <div class="card-body"> ' + content + ' </div> <div class="card-footer" style="word-wrap: initial; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"> ' + footer + ' </div> </div> '
     );
 }
 
@@ -54,9 +46,9 @@ function row(content, type) {
 
 function buttonlink(enlace, name) {
     return (
-        '<a href="' +
+        '<a  href="' +
         enlace +
-        '" class="btn btn-primary btn-block">' +
+        '">' +
         name +
         "</a>"
     );
@@ -149,6 +141,15 @@ function container(type, content) {
     return "<div class=container-" + type + ">" + content + "</div>";
 }
 
+var datos;
+
+function setDatos(data) {
+    datos = data
+}
+
+function getDatos() {
+    return datos
+}
 
 function reloj() {
     document.getElementById("app").innerHTML += '<div id="reloj"> </div>'

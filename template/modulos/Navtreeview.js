@@ -7,30 +7,30 @@ class Navtreeview extends React.Component {
 
     render(name) {
       return (
-        <li class="nav-item menu-open">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-tachometer-alt"></i>
+        <li className="nav-item menu-open">
+          <a href="#" className="nav-link">
+            <i className="nav-icon fas fa-tachometer-alt"></i>
             <p>
               {this.props.name}
-              <i class="right fas fa-angle-left"></i>
+              <i className="right fas fa-angle-left"></i>
             </p>
           </a>
-          <ul id={this.props.id} class="nav nav-treeview">
-            <li class="nav-item">
-              <a href="#" class="nav-link active">
-                <i class="far fa-circle nav-icon"></i>
+          <ul id={this.props.id} className="nav nav-treeview">
+            <li className="nav-item">
+              <a href="#" className="nav-link active">
+                <i className="far fa-circle nav-icon"></i>
                 <p> {this.props.Menu[0]} </p>
               </a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link active">
-                <i class="far fa-circle nav-icon"></i>
+            <li className="nav-item">
+              <a href="#" className="nav-link active">
+                <i className="far fa-circle nav-icon"></i>
                 <p> {this.props.Menu[1]} </p>
               </a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link active">
-                <i class="far fa-circle nav-icon"></i>
+            <li className="nav-item">
+              <a href="#" className="nav-link active">
+                <i className="far fa-circle nav-icon"></i>
                 <p> {this.props.Menu[2]} </p>
               </a>
             </li>
