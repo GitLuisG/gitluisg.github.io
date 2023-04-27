@@ -133,7 +133,7 @@ class NavLink extends React.Component {
               "https://udavinci.edu.mx/wp-content/uploads/2018/09/logo-udv-fondo-gris.png",
               "Universidad Da Vinci",
               "06:39 A.M.",
-              "Este lugar para empezar a trabajar lo recomiendo sus campus virtuales estan creados con la plataforma de moddle, son muy atentos a lo que haces muy platicadores te presentan a toda la institucion pero eso si, si no encajas, te despiden.",
+              "Este lugar para empezar a trabajar lo recomiendo sus campus virtuales estan creados con la plataforma de moddle, son muy atentos a lo que haces muy platicadores te presentan a toda la institucion pero eso si, si no encajas.",
             ],
             [
               "https://controlesdti.com/SCHFP/public/img/Logop_2.png",
