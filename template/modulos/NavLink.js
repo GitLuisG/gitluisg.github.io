@@ -204,7 +204,6 @@ break;
         break;
        case "Presentacion":
         panel.innerHTML = " ";
-        panel.innerHTML += this.obtenerPantalla(this.props.name);
         break;
       default:
         panel.innerHTML = " ";
