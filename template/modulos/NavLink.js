@@ -5,6 +5,12 @@ class NavLink extends React.Component {
 
   obtenerPantalla(name) {
     switch (name) {
+case "Presentacion":
+return row(
+          [[widget("far fa-clock", "Hora", '<span id="reloj"></span>')]],
+          "col-md-3 col-sm-6 col-12"
+        );
+break;
       case "Tablero":
         return row(
           [[widget("far fa-clock", "Hora", '<span id="reloj"></span>')]],
@@ -199,7 +205,10 @@ class NavLink extends React.Component {
         panel.innerHTML = " ";
         panel.innerHTML += this.obtenerPantalla(this.props.name);
         break;
-
+       case "Presentacion":
+        panel.innerHTML = " ";
+        panel.innerHTML += this.obtenerPantalla(this.props.name);
+        break;
       default:
         panel.innerHTML = " ";
         break;
@@ -223,7 +232,7 @@ class NavLink extends React.Component {
         return <i className="fas fa-gamepad"></i>;
         break;
       case "Presentacion":
-       return <i className="fas fa-folder"></i>;;
+       return <i className="fas fa-folder"></i>;
        break;
       default:
         return "";
