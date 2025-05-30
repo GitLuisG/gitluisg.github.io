@@ -203,6 +203,7 @@ break;
         panel.innerHTML += this.obtenerPantalla(this.props.name);
         break;
        case "Presentacion":
+ghhh
         panel.innerHTML = " ";
         break;
       default:
