@@ -205,7 +205,7 @@ break;
        case "Presentacion":
 panel.innerHTML = " ";
         panel.innerHTML +=
-          blockquote("Curriculum") + this.obtenerPantalla(this.props.name);
+          blockquote("Curriculum");
         break;
       default:
         panel.innerHTML = " ";
