@@ -228,7 +228,7 @@ case "Sobre Mi":
         break;
        case "Presentacion":
 panel.innerHTML = " ";
-        this.obtenerPantalla(['Presentacion']);
+        this.obtenerPantalla(this.props.name);
         break;
       default:
         panel.innerHTML = " ";
