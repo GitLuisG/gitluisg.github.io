@@ -110,32 +110,20 @@ class NavLink extends React.Component {
           return "Hola";
           break;
       case "Presentacion":
-        return (' <div class="row"> <div class="col-md-3"> <div class="card card-primary card-outline"> <div class="card-body box-profile"> <div class="text-center"> <img class="profile-user-img img-fluid img-circle" src="' + Assets + '/img/unnamed.jpg" /> </div> <h3 class="profile-username text-center">' +
+        return (' <div class="row"> <div class="col-md-3"> <div class="card card-primary card-outline"> <div class="card-body box-profile"> <div class="text-center"> <img class="profile-user-img img-fluid img-circle" src="' + Assets + '/img/unnamed.jpg" /> </div> <h3 class="profile-username text-center"> Ing. ' +
           Datos.name +
           '</h3> <p class="text-muted text-center">' +
           Datos.carrera +
-          "</p> " +
-          buttonlink("https://github.com/GitLuisG", "Ir a Github") +
-          ' </div> </div> <div class="card card-primary"> <div class="card-header"> <h3 class="card-title">Mas Informacion</h3> </div> <div class="card-body"> <strong><i class="fas fa-book mr-1"></i>Formacion Académica</strong> <p class="text-muted"> 2017 – 2021<br /> Licenciatura en Ingeniería en Tecnologías de la información<br /> Universidad politécnica de victoria<br /> </p> <hr /> <strong ><i class="fas fa-map-marker-alt mr-1"></i> Contacto y Ubicacion </strong> <p class="text-muted">Mayapan 818, Victoria, Tamaulipas</p> <a href="https://wa.me/+528342685756" class="text-muted"><ion-icon name="logo-whatsapp"></ion-icon>+52 (834) 268 575 6</a><br><a href="https://wa.me/+522351250081" class="text-muted"><ion-icon name="logo-whatsapp"></ion-icon>+52 (235) 125 00 81</a> <p class="text-muted">correousertb@gmail.com</p> <hr /> <strong><i class="far fa-file-alt mr-1"></i> Resumen</strong> <p class="text-muted"> Tengo amplia experiencia en análisis y limpieza de datos, wireframing y mantenimiento de sistemas informáticos, con un amplio dominio de sistemas operativos Windows y Linux. </p> </div> </div> </div> <div class="col-md-9"> <div class="card"> <div class="card-header p-2"> <ul class="nav nav-pills"> <li class="nav-item"> <a class="nav-link active" href="#Blog" data-toggle="tab" >Blog</a > </li> </ul> </div> <div class="card-body"> <div class="tab-content"><div class="active tab-pane" id="activity">' +
-          post([
+          "</p> " + ' </div> </div> </div> <div class="col-md-9"> <div class="card"> <div class="card-header p-2"> <ul class="nav nav-pills"> <li class="nav-item"><h3 class="profile-username text-center">Servicios</h3></li> </ul> </div> <div class="card-body"> <div class="tab-content"><div class="active tab-pane" id="activity">' +
+          post2([
             [
-              "https://controlesdti.com/SCHFP/public/img/Logop_2.png",
-              "ControleDti",
-              "05:56 A.M.",
-              "Este sitio web fue creado principalmente por mi en mi estadia en la universidad para realizar mi tesina, este sistema cuenta con diferentes modulos muy completos, para dar seguimiento a los pacientes, tener comunicacion con los doctores, notificar insidentes, etc." +
-              postGaleria([
-                Assets + "/img/1.png",
-                Assets + "img/2.png",
-                Assets + "img/3.png",
-                Assets + "img/4.png",
-                Assets + "img/5.png",
-              ]),
+              "Guardia de seguridad",
+              '<ol style="list-style-type: none;" class="float-sm-left"><li class="text-muted text-c">Rondines</li><li class="text-muted text-left">Registros</li><li class="text-muted text-center">Deteccion de iregularidades</li></ol>'
             ],
-          ]) +
-          " </div></div> </div> </div> </div> </div> ");
+          ]) + "</div></div> </div></div> ");
         break;
         case "Sobre Mi":
-        return ' <div class="row"> <div class="col-md-3"> <div class="card card-primary card-outline"> <div class="card-body box-profile"> <div class="text-center"> <img class="profile-user-img img-fluid img-circle" src="' + Assets + '/img/unnamed.jpg" /> </div> <h3 class="profile-username text-center">' +
+        return (' <div class="row"> <div class="col-md-3"> <div class="card card-primary card-outline"> <div class="card-body box-profile"> <div class="text-center"> <img class="profile-user-img img-fluid img-circle" src="' + Assets + '/img/unnamed.jpg" /> </div> <h3 class="profile-username text-center">' +
           Datos.name +
           '</h3> <p class="text-muted text-center">' +
           Datos.carrera +
@@ -168,9 +156,7 @@ class NavLink extends React.Component {
                 Assets + "img/5.png",
               ]),
             ],
-          ]) +
-          " </div></div> </div> </div> </div> </div> "
-        );
+          ]) + " </div></div> </div> </div> </div> </div> ");
         break;
       default:
         break;

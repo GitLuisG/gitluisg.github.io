@@ -124,6 +124,18 @@ function post(content) {
     }
     return c;
 }
+function post2(content) {
+    var c = "";
+    for (let index = 0; index < content.length; index++) {
+        c +=
+            ' <div class="post"> <span class="description">' +
+            content[index][0] +
+            "</span> </div> <p> " +
+            content[index][1] +
+            " </p> </div>";
+    }
+    return c;
+}
 
 function widget(icon, title, content) {
     return [
