@@ -228,7 +228,7 @@ case "Sobre Mi":
         break;
        case "Presentacion":
 panel.innerHTML = " ";
-        this.obtenerPantalla();
+        this.obtenerPantalla(['Presentacion']);
         break;
       default:
         panel.innerHTML = " ";
