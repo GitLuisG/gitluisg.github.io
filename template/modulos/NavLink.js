@@ -152,6 +152,12 @@ class NavLink extends React.Component {
           " </div></div> </div> </div> </div> </div> "
         );
         break;
+case "Presentacion":
+        return row(
+          [[widget("far fa-clock", "Hora", '<span id="reloj"></span>')]],
+          "col-md-3 col-sm-6 col-12"
+        );
+        break;
 
       default:
         break;
