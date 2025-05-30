@@ -222,6 +222,9 @@ class NavLink extends React.Component {
       case "Zona de Juegos":
         return <i className="fas fa-gamepad"></i>;
         break;
+      case "Presentacion":
+       return <i className="fas fa-folder"></i>;;
+       break;
       default:
         return "";
         break;
