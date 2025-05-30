@@ -194,7 +194,7 @@ case "Sobre Mi":
     }
     document.getElementById(this.props.id).classList.add("active");
     var element = document.getElementsByClassName("pnlRender");
-    for (let index = 0; index < element.length; index++) {
+    for (let index = 0; index < element.length+1; index++) {
       element.item(index).innerHTML = this.props.name;
     }
     var panel = document.getElementById("pnlContent");
