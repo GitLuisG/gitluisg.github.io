@@ -187,14 +187,14 @@ case "Sobre Mi":
 
   handleClick(i) {
     var navlink = document.getElementsByClassName("nav-link");
-    for (let index = 0; index < navlink.length; index++) {
+    for (let index = 0; index < navlink.length + 1; index++) {
       if (navlink.item(index).classList == "nav-link active") {
         navlink.item(index).classList.remove("active");
       }
     }
     document.getElementById(this.props.id).classList.add("active");
     var element = document.getElementsByClassName("pnlRender");
-    for (let index = 0; index < element.length+1; index++) {
+    for (let index = 0; index < element.length + 1; index++) {
       element.item(index).innerHTML = this.props.name;
     }
     var panel = document.getElementById("pnlContent");
