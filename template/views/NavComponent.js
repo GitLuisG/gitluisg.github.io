@@ -13,6 +13,7 @@ class NavComponent extends React.Component {
                   <NavLink name="Tablero" id="1" />
                   <NavLink name="Proyectos" id="3" />
                   <NavLink name="Sobre Mi" id="2" />
+<NavLink name="Presentación" id="4" />
                 </ul>
               </nav>
             </div>
