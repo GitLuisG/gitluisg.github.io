@@ -6,10 +6,7 @@ class NavLink extends React.Component {
   obtenerPantalla(name) {
     switch (name) {
 case "Presentacion":
-return row(
-          [[widget("far fa-clock", "Hora", '<span id="reloj"></span>')]],
-          "col-md-3 col-sm-6 col-12"
-        );
+return "#";
 break;
       case "Tablero":
         return row(
