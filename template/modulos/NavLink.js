@@ -5,9 +5,6 @@ class NavLink extends React.Component {
 
   obtenerPantalla(name) {
     switch (name) {
-case "Presentacion":
-return "#";
-break;
       case "Tablero":
         return row(
           [[widget("far fa-clock", "Hora", '<span id="reloj"></span>')]],
@@ -204,8 +201,7 @@ break;
         break;
        case "Presentacion":
 panel.innerHTML = " ";
-        panel.innerHTML +=
-          blockquote("Curriculum");
+        this.obtenerPantalla(this.props.name);
         break;
       default:
         panel.innerHTML = " ";
