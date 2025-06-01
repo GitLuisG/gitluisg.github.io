@@ -132,7 +132,7 @@ function post2(content) {
             content[index][0] +
             "</span> </div> <p> " +
             content[index][1] +
-            " </p> </div>";
+            " </p><p></p> </div>";
     }
     return c;
 }
@@ -167,11 +167,16 @@ function reloj() {
     document.getElementById("app").innerHTML += '<div id="reloj"> </div>'
 }
 
+function Qrcreator(){
+  
+}
+
 function update() {
     if (document.getElementById("reloj")) {
         const date = new Date();
         document.getElementById("reloj").innerHTML = date.toLocaleTimeString();
     }
 }
+
 
 setInterval(update, true);
