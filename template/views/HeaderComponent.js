@@ -19,13 +19,14 @@ class HeaderComponent extends React.Component {
     );
   }
 
-
   handleClick(i) {
     alert(i);
+    var navlink = document.getElementsByClassName("header");
+    navlink.style.display = "none";
   }
 
-  render() {
-    return <header>
+  render(){
+    return <header class="header">
       <div className="wrapper">
         <nav className="main-header navbar navbar-expand navbar-white navbar-light">
           <ul className="navbar-nav">
@@ -39,7 +40,7 @@ class HeaderComponent extends React.Component {
                 <i className="fas fa-bars"></i>
               </a>
             </li>
-            {this.navlink("btnContact", "Contacto")}
+            {this.navlink("btnContact", "presentar")}
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -54,8 +55,8 @@ class HeaderComponent extends React.Component {
             </li>
           </ul>
         </nav>
-      </div>
-    </header>;
+    </div>
+  </header>
   }
 
 

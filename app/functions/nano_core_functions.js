@@ -25,7 +25,7 @@ function imagen(ruta, ribbon, width) {
 function card(titulo, content, footer) {
     return (
         '<div class="card" > <div class="card-header" style=" display: flex; flex-direction: row; "> <h3 style="word-wrap: initial; white-space:nowrap; width: -webkit-fill-available; overflow:hidden; text-overflow:ellipsis;" class="card-title"> ' + titulo + ' </h3> <div class="card-tools" > <button type="button" class="btn btn-tool" data-card-widget="maximize"> <i class="fas fa-expand"></i> </button> </div> </div> <div class="card-body"> ' + content + ' </div> <div class="card-footer" style="word-wrap: initial; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"> ' + footer + ' </div> </div> '
-    );
+    )
 }
 
 function col(content, type) {
@@ -89,7 +89,7 @@ function areachart(titulo, lbldata, lbldataset, id) {
         '</h3>  <div class="card-tools">  <button type="button" class="btn btn-tool" data-card-widget="collapse" >  <i class="fas fa-minus"></i> </button> <button type="button" class="btn btn-tool" data-card-widget="remove" >  <i class="fas fa-times"></i> </button> </div> </div> <div class="card-body"> <div class="chart">  <canvas id=' +
         id +
         "></canvas> </div> </div> </div> "
-    );
+    )
 }
 
 function postGaleria(img) {
@@ -105,7 +105,7 @@ function postGaleria(img) {
         '" alt="Photo"> <img class="img-fluid" src="' +
         img[4] +
         '" alt="Photo"> </div> </div> </div> </div>'
-    );
+    )
 }
 
 function post(content) {
@@ -124,6 +124,7 @@ function post(content) {
     }
     return c;
 }
+
 function post2(content) {
     var c = "";
     for (let index = 0; index < content.length; index++) {

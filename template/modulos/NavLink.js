@@ -107,7 +107,7 @@ class NavLink extends React.Component {
         return '<div class="swiper mySwiper"> <div class="swiper-wrapper"> <div class="swiper-slide" style="width: 172.66699999999997px;"> <div class="position-relative p-3 bg-gray"> <img src="https://swiperjs.com/images/n4w-logo.svg" alt="Photo 1" class="img-fluid"> <div class="ribbon-wrapper ribbon-xl"> <div class="ribbon bg-success text-lg"> Brawl Start </div> </div> </div> <div class="position-relative p-3 bg-gray"> <img src="https://swiperjs.com/images/n4w-logo.svg" alt="Photo 1" class="img-fluid"> <div class="ribbon-wrapper ribbon-xl"> <div class="ribbon bg-success text-lg"> Brawl Start </div> </div> </div> <div class="position-relative p-3 bg-gray"> <img src="https://swiperjs.com/images/n4w-logo.svg" alt="Photo 1" class="img-fluid"> <div class="ribbon-wrapper ribbon-xl"> <div class="ribbon bg-success text-lg"> Brawl Start </div> </div> </div> <div class="position-relative p-3 bg-gray"> <img src="https://swiperjs.com/images/n4w-logo.svg" alt="Photo 1" class="img-fluid"> <div class="ribbon-wrapper ribbon-xl"> <div class="ribbon bg-success text-lg"> Brawl Start </div> </div> </div> <div class="position-relative p-3 bg-gray"> <img src="https://swiperjs.com/images/n4w-logo.svg" alt="Photo 1" class="img-fluid"> <div class="ribbon-wrapper ribbon-xl"> <div class="ribbon bg-success text-lg"> Brawl Start </div> </div> </div> </div> </div> <div class="swiper-pagination"></div> </div>';
         break;
         case "Articulos":
-          return "Hola";
+          return "";
           break;
       case "Presentacion":
         return (' <div class="row"> <div class="col-md-3"> <div class="card card-primary card-outline"> <div class="card-body box-profile"> <div class="text-center"> <img class="profile-user-img img-fluid img-circle" src="' + Assets + '/img/unnamed.jpg" /> </div> <h3 class="profile-username text-center"> Ing. ' +
@@ -153,7 +153,7 @@ class NavLink extends React.Component {
                 Assets + "img/4.png",
                 Assets + "img/5.png",
               ]),
-            ],
+              ],
           ]) + ' </div></div> </div> </div> </div> </div>');
         break;
       default:
@@ -236,7 +236,7 @@ class NavLink extends React.Component {
       <li className="nav-item">
         <a
           href="#"
-          className="nav-link "
+          className="nav-link"
           id={this.props.id}
           onClick={(i) => this.handleClick(i)}
         >
@@ -244,6 +244,6 @@ class NavLink extends React.Component {
           <p> {this.props.name}</p>
         </a>
       </li>
-    );
+    )
   }
 }

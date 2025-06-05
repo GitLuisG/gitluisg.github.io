@@ -2,7 +2,6 @@ var $fileconfig = 'app/config/';
 var $filecore = 'app/core/';
 var $filemain = 'app/class/';
 
-
 function require(file){
     document.getElementById("app").innerHTML += '<script type="text/babel" src="' + file + '"></script>'
 }

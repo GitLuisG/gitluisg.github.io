@@ -3,5 +3,4 @@ fetch(API)
     .then(function (data) {
         setDatos(data)
     }
-    )
-
+  )
