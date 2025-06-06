@@ -1,10 +1,11 @@
-class MainComponent extends React.Component{
+class MainComponent extends React.Component {
     constructor(props) {
         super(props);
     }
 
-    render(){
-        return (<div><HeaderComponent />{RouterComponent.get_ruter(this.props.name, this.props.id)}
+    render() {
+        return (<div>
+            <HeaderComponent />
             <div id="main">
                 <ArticleComponent />
                 <NavComponent />
@@ -13,5 +14,4 @@ class MainComponent extends React.Component{
             <FooterComponent />
         </div>)
     }
-    
 }

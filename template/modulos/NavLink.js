@@ -91,11 +91,11 @@ class NavLink extends React.Component {
                 )
               ),
               card(
-                "Analisis covid 19",
-                imagen(Assets + "img/Analisis.png", "", "auto"),
+                "Framework React Js",
+                imagen(Assets + "img/react.png", "", "auto"),
                 buttonlink(
-                  "https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico/resource/345b0c09-a936-4c50-9e5c-0a43f2305595?inner_span=True",
-                  "Ir al dataset"
+                  RouterComponent.get_ruter("Home", "Index"),
+                  "Ir al Sitio"
                 )
               ),
             ],
