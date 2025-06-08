@@ -99,7 +99,7 @@ class NavLink extends React.Component {
                 )),
               card(
                 "Aplicacion para trasmitir en vivo desde internet",
-                imagen("Modules/TrasmisiónTV/img.gif", "", "100%"),
+                imagen(getModuleassets("TrasmisiónTV","img", "TVtrasm.gif"), "", "100%"),
                 buttonlink(
                   RouterComponent.get_ruter("TrasmisiónTV", "index"),
                   "Ir al Sitio"

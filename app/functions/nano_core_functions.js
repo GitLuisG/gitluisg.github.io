@@ -1,3 +1,7 @@
+function getModuleassets(name, folder, file){
+  return Route + name + "assets" + folder + file;
+}
+
 function blockquote(text) {
     return (
         '<blockquote class="quote-info"> <h6>Info</h6> <p>' +
