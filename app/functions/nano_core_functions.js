@@ -172,12 +172,15 @@ function Qrcreator(){
   
 }
 
+function createFolder() { 
+  window.createFolder("Hola");
+} 
+
 function update() {
     if (document.getElementById("reloj")) {
         const date = new Date();
         document.getElementById("reloj").innerHTML = date.toLocaleTimeString();
     }
 }
-
 
 setInterval(update, true);
