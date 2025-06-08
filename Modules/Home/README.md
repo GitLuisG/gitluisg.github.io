@@ -36,8 +36,10 @@
 ```Javascript
     Dentro del sistema raiz se encuentra la carpeta assets del sistema puedes incorporar tus librerias en esa carpeta.
 ```
-
-
+- 3 -.Para generar una conexion hacia nuestra api client utilizamos el archivo nano_config.js
+```Javascript
+    Dentro del sistema raiz se encuentra la carpeta config del sistema puedes incorporar tus API en esa carpeta en el Archivo nano_config, despues de eso utilizas los metodos setDatos y getDatos para extraer o insertar datos mediante peticiones que se encuentran en la carpeta funtions, que esta ubicada en la carpeta raiz app.
+```
 
 ## Capturas
 
