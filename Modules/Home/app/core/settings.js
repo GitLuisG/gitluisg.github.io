@@ -4,8 +4,8 @@ const FUNCTIONS = 'app/functions/';
 
 const TOKEN = '';
 
-const URL = "Modules" + window.location.origin;
+const URL = window.location.origin + "Modules/";
 const PATH = window.location.pathname;
 const Dir = URL + PATH;
-const Assets = URL + PATH + "assets/";
+const Assets = URL + "/assets/";
   
