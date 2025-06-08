@@ -5,16 +5,11 @@ class MainComponent extends React.Component {
 
     render() {
         return (<div>
-            <HeaderComponent />
             <div id="main">
-                <ArticleComponent />
-                <NavComponent />
                 <div id="Conteiner">
                   <SectionComponent />
                 </div>
-                <AsideComponent />
             </div>
-            <FooterComponent />
         </div>)
     }
 }
