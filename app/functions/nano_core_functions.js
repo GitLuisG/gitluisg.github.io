@@ -1,5 +1,5 @@
 function getModuleassets(name, folder, file){
-  return Route + name + "assets" + folder + file;
+  return Route + name + "/assets/" + folder + "/" + file;
 }
 
 function blockquote(text) {
