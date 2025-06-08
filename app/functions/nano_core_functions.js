@@ -14,7 +14,7 @@ function imagen(ruta, ribbon, width) {
             ribbon +
             "</div> </div>";
     return (
-        '<div class="position-relative" > <img src="' +
+        '<div class="position-relative" > <img width="'+width+'" src="' +
         ruta +
         '" alt="Photo 1" class="img-fluid"> ' +
         ribbonhtml +

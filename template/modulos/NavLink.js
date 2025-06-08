@@ -92,7 +92,7 @@ class NavLink extends React.Component {
               ),
               card(
                 "Framework React Js Module Example",
-                imagen(Assets + "Modules/Home/img.gif", "", "auto"),
+                imagen("Modules/Home/img.gif", "", "100%"),
                 buttonlink(
                   RouterComponent.get_ruter("Home", "index"),
                   "Ir al Sitio"
