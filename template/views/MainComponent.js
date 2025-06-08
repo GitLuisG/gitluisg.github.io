@@ -4,7 +4,7 @@ class MainComponent extends React.Component{
     }
 
     render(){
-        return (<div><HeaderComponent />{RouterComponent.get_ruter(this.props.name, this.props.id)}
+        return (<div><HeaderComponent />
             <div id="main">
                 <ArticleComponent />
                 <NavComponent />

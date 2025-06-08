@@ -4,5 +4,5 @@ const URL = window.location.origin;
 const PATH = window.location.pathname;
 const Dir = window.location.origin + PATH;
 const Assets = window.location.origin + PATH + "assets/";
-const Route = Dir + "/c?=";
-const Action = "&a?=";
+const Route = URL + "/" + "Modules/";
+const Action = "Action/";

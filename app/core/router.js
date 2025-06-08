@@ -54,8 +54,8 @@ class RouterComponent extends React.Component{
 
   }
     
-  static get_ruter(ruta = "", action = ""){
-      return Route + ruta + Action + action
+  static get_ruter(Module = "", action = ""){
+      return Route + Module +"/"+ action + ".html"
   }
   
 }
