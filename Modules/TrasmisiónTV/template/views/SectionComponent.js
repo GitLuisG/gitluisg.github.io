@@ -2,12 +2,14 @@ class SectionComponent extends React.Component {
   
     handleClick(i, canal = "") {
         var panel = document.getElementById("mainSectionTV");
-        panel.innerHTML = '<Logo/><video controls autoplay class="img-fluid" src="'+canal+'"></video>'
+        panel.innerHTML = '<video controls autoplay class="img-fluid" src="'+canal+'"></video>'
     }
     
     render() {
       return <div id="mainSection" class="Reproductor">
+         <Logo/>
           <button onClick={(i) => this.handleClick(i)} > {"<"} </button>
+         
               <section id="mainSectionTV">
                 
               </section>
