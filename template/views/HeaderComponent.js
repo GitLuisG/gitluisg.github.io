@@ -40,7 +40,6 @@ class HeaderComponent extends React.Component {
                 <i className="fas fa-bars"></i>
               </a>
             </li>
-            {this.navlink("btnContact", "presentar")}
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
