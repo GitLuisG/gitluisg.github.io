@@ -183,7 +183,7 @@ function createFolder() {
 function update() {
     if (document.getElementById("reloj")) {
         const date = new Date();
-        document.getElementById("reloj").innerHTML = date.toLocaleTimeString();
+        document.getElementById("reloj").innerHTML = date.toLocaleTimeString()+" "+date.getUTCFullYear()+"/"+date.getUTCMonth()+"/"+date.getUTCDay();
     }
 }
 

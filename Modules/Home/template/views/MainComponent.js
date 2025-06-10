@@ -1,4 +1,4 @@
-import ArticleComponent from './ArticleComponent';
+
 class MainComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -8,10 +8,7 @@ class MainComponent extends React.Component {
         return (<div>
             <HeaderComponent />
             <div id="main">
-                <ArticleComponent />{buttonlink(
-                  "https://github.com/GitLuisG/Sistema_de_Mensajeria",
-                  "Ir al repositorio"
-                )}
+                <ArticleComponent />
                 <NavComponent />
                 <AsideComponent />
             </div>
